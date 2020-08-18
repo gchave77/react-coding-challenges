@@ -16,6 +16,12 @@ export class ClassRocket extends Component {
     };
   }
 
+  shouldComponentUpdate() {
+    console.log('Greeting - shouldComponentUpdate lifecycle');
+
+    return false;
+  }
+
   render() {
     const { initialLaunchTime } = this.state;
 
