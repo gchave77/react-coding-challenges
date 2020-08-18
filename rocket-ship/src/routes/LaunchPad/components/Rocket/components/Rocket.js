@@ -17,7 +17,7 @@ export class ClassRocket extends Component {
   }
 
   shouldComponentUpdate() {
-    console.log('Greeting - shouldComponentUpdate lifecycle');
+    console.log('No launch - shouldComponentUpdate lifecycle');
 
     return false;
   }
